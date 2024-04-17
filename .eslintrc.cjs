@@ -1,6 +1,7 @@
 module.exports = {
     root: true,
     env: { browser: true, es2020: true },
+    parser: '@typescript-eslint/parser',
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
@@ -8,11 +9,9 @@ module.exports = {
         'prettier',
     ],
     ignorePatterns: ['dist', '.eslintrc.cjs'],
-    parser: '@typescript-eslint/parser',
-    plugins: ['react-refresh', 'prettier'],
+    plugins: ['@typescript-eslint', 'react-refresh'],
     rules: {
         'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
-        indent: ['error', 4, 'spaces'],
         quotes: ['error', 'single'],
         semi: ['error', 'always'],
     },

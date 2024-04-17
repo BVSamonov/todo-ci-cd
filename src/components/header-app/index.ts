@@ -1,3 +1,3 @@
-import HeaderApp from "./header-app"
+import HeaderApp from './header-app';
 
-export default HeaderApp
+export default HeaderApp;
