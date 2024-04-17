@@ -1,65 +1,65 @@
 .todo-list-item {
-  position: relative;
-  transition: all 0.3s;
+    position: relative;
+    transition: all 0.3s;
 }
 
 .done {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 .important {
-  color: #009688;
-  font-weight: bold;
+    color: #009688;
+    font-weight: bold;
 }
 
 .todo-list-item__wrapper-btn {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  display: inline-flex;
-  column-gap: 5px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-flex;
+    column-gap: 5px;
 }
 
 .list-item__btn {
-  display: flex;
-  padding: 0;
+    display: flex;
+    padding: 0;
 }
 
 .item__remove-btn {
-  border-radius: 4px;
-  border: 1px solid #ff6347;
-  cursor: pointer;
-  transition: all 0.3s;
+    border-radius: 4px;
+    border: 1px solid #ff6347;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 .item__remove-btn:hover {
-  background-color: #ff6347;
+    background-color: #ff6347;
 }
 
 .remove-btn__img {
-  color: #ff6347;
+    color: #ff6347;
 }
 
 .remove-btn__img:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .item__important-btn {
-  border-radius: 4px;
-  border: 1px solid #009688;
-  transition: all 0.3s;
-  cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #009688;
+    transition: all 0.3s;
+    cursor: pointer;
 }
 
 .item__important-btn:hover {
-  background-color: #009688;
+    background-color: #009688;
 }
 
 .important-btn__img {
-  color: #009688;
+    color: #009688;
 }
 
 .important-btn__img:hover {
-  color: #fff;
+    color: #fff;
 }

@@ -1,11 +1,11 @@
 .header-app {
-  position: relative;
-  font-family: cursive;
+    position: relative;
+    font-family: cursive;
 }
 
 .header-app__subtitle {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  color: #009688;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #009688;
 }

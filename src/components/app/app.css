@@ -1,11 +1,11 @@
 #root {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .todo-wrapper {
-  display: inline-flex;
-  flex-direction: column;
-  font-family: cursive;
-  min-width: 350px;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: cursive;
+    min-width: 350px;
 }
