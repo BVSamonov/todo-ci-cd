@@ -20,7 +20,7 @@ interface IAppInitial {
     filter: string;
 }
 
-export default class App extends Component<{ tab: string }> {
+export default class App extends Component {
     labelId = 100;
 
     state: IAppInitial = {
