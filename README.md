@@ -14,4 +14,4 @@
 
 Реализация не сложная, но и проект тоже не сложный. Можно было бы накатить сверху тесты и докинуть их к CI. Если будет необходимость могу реализовать.
 
-*Deploy* - https://bvsamonov.github.io/todo-ci-cd/
+*Deploy* - http://bvsamonov.github.io/todo-ci-cd/
